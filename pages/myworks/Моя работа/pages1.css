@@ -1,0 +1,109 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+body{
+    background-color: gray;
+}
+
+/*Header*/
+#right{
+    background-color: rgb(204, 123, 18);
+    float: right;
+}
+
+.header{
+    padding: 30px;
+    background-color: black;
+}
+
+.header a{
+    padding: 10px;
+    display: inline-block;
+}
+
+.header a:hover{
+    background-color: white;
+    color: black;
+}
+
+/*Услуги*/
+
+.services{
+    background-image: url(fon.jpg);
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2em;
+    grid-row-gap: 2em;
+    padding: 200px 50px;
+}
+
+.service{
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(204, 123, 18);
+    border-radius: 10px;
+}
+
+/*О нас*/
+.container{
+    padding: 60px 0px 60px 0px;
+    max-width: 80%;
+    margin: auto;
+}
+
+.adress{
+    display: flex;
+    padding: 20px;
+}
+
+.info{
+    padding: 30px 50px 50px 50px;
+    text-align: left;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.info:hover{
+    cursor: default;
+}
+
+.map{
+    border-radius: 10px;
+}
+
+.title{
+    text-align: center;
+}
+
+/*Footer*/
+.footer{
+    background-color: black;
+    padding: 20px;
+}
+
+.links{
+    text-align: center;
+}
+
+.links a{
+    padding: 10px;
+}
+
+.links a:hover{
+    background-color: rgb(204, 123, 18);
+}
+
+.up{
+    position: fixed;
+    bottom: 20px;
+    left: 40px;
+    padding: 20px;
+    background: rgb(0, 0, 0);
+    border-radius: 50%;
+  }

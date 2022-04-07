@@ -1,0 +1,164 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    color: black;
+    font-size: 16px;
+    font-family: 'Caveat', cursive;
+    overflow-x: hidden;
+}
+
+/* Header */
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.nav{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #00CED1;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.nav a{
+    font-size: 24px;
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+}
+
+.menu{
+    display: flex;
+}
+
+#menu-left{
+    margin-right: auto;
+}
+
+.menu a:hover{
+    color: rgb(255, 255, 255);
+}
+
+#menu-center{
+    display: flex;
+    margin: 0px auto;
+}
+
+#menu-center li{
+    padding: 0px 30px;
+}
+
+#menu-right{
+    margin-left: auto;
+}
+/*Header*/
+
+/*Section*/
+.section{
+    background-color: #E0FFFF;
+    padding: 100px 0px;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: auto;
+    grid-column-gap: 1em;
+}
+
+.sidebar{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    padding: 10px;
+    margin: 0px 20px 10px 20px;
+    position: fixed;
+    top: 70px;
+    left: 0px;
+}
+
+.sidebar ul li a{
+    color: black;
+    font-size: 20px;
+    font-family:'Nunito Sans', sans-serif;
+    font-weight: 400;
+}
+
+.sidebar ul li{
+    margin-top: 10px;
+}
+
+.about_me a{
+    display: block;
+}
+
+.about_me{
+    margin-top: 300px
+}
+
+.content{
+    padding: 20px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    height: auto;
+}
+
+.card{
+    margin: 20px 0px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.card p{
+    margin-top: 10px;
+}
+
+.card h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.avtor{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.datetime{
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.ad{
+    grid-column-start: 3;
+    grid-column-end: 4;   
+}
+/*Section*/
+
+
+/*Footer*/
+.footer{
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #00CED1;
+}
+
+.footer a{
+    margin: 0px 20px;
+}
+/*Footer*/
+
+.up{
+    position: fixed;
+    bottom: 20px;
+    left: 40px;
+    padding: 20px;
+    background: rgb(0, 0, 0);
+    border-radius: 50%;
+  }

@@ -1,0 +1,155 @@
+@media only screen and (max-width: 1050px) {
+    .container {
+        width: 998px;
+    }
+
+    .menu li img {
+        width: 30px;
+    }
+
+    .menu li {
+        margin: 0px 10px;
+    }
+
+    .card {
+        margin-bottom: 40px;
+        width: 300px;
+        border: 3px solid rgb(0, 0, 0);
+        padding: -1px;
+        border-radius: 5px;
+    }
+
+    .card img {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    .container {
+        width: 850px;
+    }
+
+    .menu li img {
+        width: 30px;
+    }
+
+    .menu li {
+        margin: 0px 10px;
+    }
+
+    .card {
+        margin-bottom: 40px;
+        width: 300px;
+        border: 3px solid rgb(0, 0, 0);
+        padding: -1px;
+        border-radius: 5px;
+    }
+
+    .card img {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    .container {
+        width: 750px;
+    }
+
+    .menu li img {
+        width: 30px;
+    }
+
+    .menu li {
+        margin: 0px 10px;
+    }
+
+    .card {
+        margin-bottom: 40px;
+        width: 300px;
+        border: 3px solid rgb(0, 0, 0);
+        padding: -1px;
+        border-radius: 5px;
+    }
+
+    .card img {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .container {
+        width: 300px;
+    }
+
+    .menu li img {
+        width: 30px;
+    }
+
+    .menu li {
+        margin: 0px 10px;
+    }
+
+    .card {
+        margin-bottom: 40px;
+        width: 300px;
+        border: 3px solid rgb(0, 0, 0);
+        padding: -1px;
+        border-radius: 5px;
+    }
+
+    .card img {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .container {
+        width: 320px;
+    }
+
+    .menu li img {
+        width: 30px;
+    }
+
+    .menu li {
+        margin: 0px 10px;
+    }
+
+    .card {
+        margin-bottom: 40px;
+        width: 300px;
+        border: 3px solid rgb(0, 0, 0);
+        padding: -1px;
+        border-radius: 5px;
+    }
+
+    .card img {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .container {
+        width: 280px;
+    }
+
+    .menu li img {
+        width: 20px;
+    }
+
+    .menu li {
+        margin: 0px 5px;
+    }
+
+    .card {
+        margin-bottom: 40px;
+        width: 200px;
+        border: 3px solid rgb(0, 0, 0);
+        padding: -1px;
+        border-radius: 5px;
+    }
+
+    .card img {
+        width: 200px;
+    }
+}

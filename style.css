@@ -1,0 +1,218 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    color: white;
+}
+
+.wrapper{
+    min-height: 100%;
+}
+
+body{
+    background: #222;
+}
+
+.up{
+    position: fixed;
+    bottom: 20px;
+    left: 40px;
+    padding: 20px;
+    background: rgb(0, 0, 0);
+    border-radius: 50%;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    background: #313131;
+    padding: 20px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu li{
+    margin: 0px 20px;
+}
+
+.menu li a{
+    font-size: 22px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+
+.menu li img{
+    border-radius: 50%;
+    transition: all 0.5s ease;
+}
+
+.menu li img:hover{
+    border-radius: 10%;
+}
+
+.nav{
+    padding: 20px 0px;
+}
+
+#title{
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin: 40px 0px 20px;
+    text-align: center;
+}
+
+#text{
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 3px;
+    text-align: left;
+    margin: 0px 50px;
+}
+
+.about{
+    margin: 70px 0px 100px;
+}
+
+#wheat{
+    background: wheat;
+}
+
+.about-me h1{
+    font-size: 22px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.about-me p{
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-weight: normal;
+    color: black;
+    padding-bottom: 20px;
+}
+
+.myworks{
+    margin: 70px 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin-bottom: 40px;
+    width: 400px;
+    border: 3px solid rgb(0, 0, 0);
+    padding: -1px;
+    border-radius: 5px;
+}
+
+.card img{
+    margin-bottom: -5px;
+}
+
+.in{
+    padding: 20px;
+    text-align: left;
+    background-color: wheat;   
+}
+
+.in h1{
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: black;
+}
+
+.in p{
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    color: black;
+}
+
+#link{
+    margin: 10px 0px;
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px;
+    background-color: white;
+    color: rgb(93, 93, 190);
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    border-radius: 5px;
+}
+
+.links{
+    display: flex;
+    padding: 0px 30px;
+}
+
+#left{
+    margin-right: auto;
+}
+
+#right{
+    margin-left: auto;
+}
+
+#black{
+    background: black;
+}
+
+#link:hover{
+    color: rgb(111, 0, 255);
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    top: 100px;
+    left: 0;
+    margin: auto;
+    right: 0;
+    width: 300px;
+    height: auto;
+    background-color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.block > p{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.block{
+    padding: 50px;
+    border: 1px solid #222;
+    background-color: rgb(255, 255, 255);
+}
+
+.close{
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.close:hover{
+    cursor: default;
+}
